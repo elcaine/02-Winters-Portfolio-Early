@@ -84,6 +84,11 @@ header {
   background-position: center;
 }
 
+#projects {
+  padding-top: 2rem;
+  margin-top: -2rem;
+}
+
 #emphasized-project {
   width: auto;
   margin-left: auto;

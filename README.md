@@ -18,7 +18,7 @@ With more time I am certain the polish and filling-out of this portfolio
 would find greater realizations.  
 
 N E E D    T O    C H A N G E    T H I S ! ! ! ! !!!!
-## [Link to finished product](https://elcaine.github.io/Refactoring-Standardising-Wk1_Challenge/)
+## [Link to finished product](https://elcaine.github.io/02-Winters-Portfolio/)
 
 ## Webpage resembles personalized spirit of the example provided.
 ![This is a screenshot of my portfolio website.](./assets/images/my-portfolio.jpg)
