@@ -9,15 +9,11 @@ The layout consists of:
 	-Footer:  Contact links.  
 	
 ## Projects  
-The Study Guide web app link will open a page that shows the actual application.
-The others have links that are functional, but only open their GitHub repos.
-They are not properly deployed, but for the purposes of this assignment/project,
-where empty placeholders were expected for our very limited experience,
-I believed this would suffice.
+The Study Guide web app link will open a page that shows the actual application.  The others have links that are functional, but only open their GitHub repos.  They are not properly deployed, but for the purposes of this assignment/project, where empty placeholders were said to be expected for our very limited eperience, I believed this would suffice.
 
 ## Style  
 The core structure of this website deployement is based on Activity 28
-from Week 02 of this Bootcamp (also noted in the  `style.css` file).
+from Week 02 of this Bootcamp (also credited in the  `style.css` file).
 With more time I am certain the polish and filling-out of this portfolio
 would find greater realizations.  
 

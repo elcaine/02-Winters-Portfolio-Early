@@ -65,6 +65,8 @@ p {
 }
 
 header {
+  width: 100%;
+  border: .25rem solid var(--contrast--yellow);
   position: sticky;
   top: 0;
   left: 0;
@@ -83,7 +85,7 @@ header {
 }
 
 #emphasized-project {
-  display: block;
+  width: auto;
   margin-left: auto;
   margin-right: auto;
   margin-top: 5rem;
@@ -125,12 +127,18 @@ section img {
 }
 
 footer {
-  margin: 1.5rem;
+  width: 100%;
+  border: .25rem solid var(--contrast--yellow);
   text-align: center;
   background-image: url("../images/header-background.jpg");
 }
 
-/* Default hyperlink colors changed to fit scheme */
+/* Default hyperlink colors changed to fit scheme and hover mods */
+a .center {
+  margin: .1rem;
+  text-align: center;
+}
+
 a:link {
   color: var(--contrast--yellow);
 }
