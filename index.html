@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-
+<!-- Meta date and other <head> items -->
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -18,7 +18,7 @@
             <li><a href="#">About</a></li>
             <li><a href="#about">Projects</a></li>
             <li><a href="#contact">Contact</a></li>
-            <li><a href="#resume">Resume</a></li>
+            <li><a href="./assets/docs/Daniel Caine Winters Resume.pdf" target="_blank">Resume</a></li>
         </ul>
     </nav>
   </header>
@@ -36,26 +36,31 @@
       </section>
     </div>
     
-    <h1>
-      Projects on Github
-    </h1>
-    <section class="row justify-center">
-      <div class="card-column">
+    <h1>Projects</h1> 
+    <div id="emphasized-project">
         <figure class="card code-card">
           <h2 class="card-header">Study guide</h2>
           <div class="card-body">
             <p>Studyguide for Full Stack bootcamp -- a simple website.</p>
           </div>
-            <img src="./assets/images/study-guide.jpg" alt="Screenshot of study guide website" class="center">
+            <a href="https://elcaine.github.io/prework-study-guide/"
+              target="_blank"><img src="./assets/images/study-guide.jpg" 
+              alt="Screenshot of study guide website" class="center">
+            </a>
         </figure>
-      </div>
+    </div>
+
+    <section class="row justify-center">
       <div class="card-column">
         <figure class="card code-card">
           <h2 class="card-header">Input Golf</h2>
           <div class="card-body">
             <p>Quiz-based web game teaching cybersecurity.</p>
           </div>
-          <img src="./assets/images/cybersecurity-game.jpg" alt="Screenshot of wireframe for game analysis page" class="center">
+          <a class="center" href="https://github.com/elcaine/IGcopy/tree/main/Input_Golf-main"
+            target="_blank"><img src="./assets/images/cybersecurity-game.jpg" 
+            alt="Screenshot of wireframe for game analysis page" class="center">
+          </a>
       </figure>
       </div>
 
@@ -65,7 +70,10 @@
           <div class="card-body">
             <p>Point-&-click remake of the classic Microsoft game.</p>
           </div>
-          <img src="./assets/images/minesweeper.jpg" alt="Screenshot of Minesweeper game" class="center">
+          <a class="center" href="https://github.com/elcaine/Minesweeper"
+            target="_blank"><img src="./assets/images/minesweeper.jpg" 
+            alt="Screenshot of Minesweeper game" class="center">
+          </a>
       </figure>
       </div>
       <div class="card-column">
@@ -74,34 +82,30 @@
           <div class="card-body">
             <p>Find 10-digit primes from concatenated Fibonacci sequence.</p>
           </div>
-          <img src="./assets/images/ten-digit-primes.jpg" alt="Code snippet of algorithm" class="center">
+          <a class="center" href="https://github.com/elcaine/findTen"
+          target="_blank"><img src="./assets/images/ten-digit-primes.jpg"
+          alt="Code snippet of algorithm" class="center">
+          </a>
       </figure>
       </div>
       <div class="card-column">
         <figure class="card code-card">
-          <h2 class="card-header">Movie data analysis</h2>
+          <h2 class="card-header">Korn-shell emulator</h2>
           <div class="card-body">
-            <p>SQL application to analyze movie data.</p>
+            <p>Command line shell application attempting to emulate KornShell.</p>
           </div>
-          <img src="./assets/images/sql-wireframe.jpg" alt="Wireframe of SQL application" class="center">
-      </figure>
-      </div>
-
-      <div class="card-column">
-        <figure class="card code-card">
-          <h2 class="card-header">Placeholder for one more</h2>
-          <div class="card-body">
-            <p>Fill in with another project.
-            </p>
-          </div>
-          <img src="./assets/images/study-guide.jpg" alt="Screenshot of study guide website" class="center">
+          <!-- Image from kornshell.com -->
+          <a class="center" href="https://github.com/elcaine/nutShellProjectRepo"
+          target="_blank"><img src="./assets/images/kornshell.jpg"
+          alt="Wireframe of SQL application" class="center">
+          </a>
       </figure>
       </div>
     </section>
   </main>
 
   <footer>
-    <ul>
+    <ul id="contact">
         <li><a href="tel:4076942540">(407)694-2540</a></li>
         <li><a href="https://github.com/elcaine" target="_blank">Github Profile</a></li>
         <li><a href="mailto:caine.winters@outlook.com">Caine.Winters@outlook.com</a></li>
