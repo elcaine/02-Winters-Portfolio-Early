@@ -240,12 +240,3 @@ a:hover {
     max-width: 33.333%;
   }
 }
-
-
-<h2 class="card-header">Joke Translator</h2>
-<div class="card-body">
-  <p>1st major group poject in bootcamp:  interactive website dependent on two external server-side APIs</p>
-</div>
-<a class="center" href="#"
-  target="_blank"><img src="./assets/images/joke-translator.jpg" 
-  alt="Screenshot of Joke Translator app" class="center">
