@@ -18,7 +18,7 @@ from Week 02 of this Bootcamp (also credited in the  `style.css` file).
 With more time I am certain the polish and filling-out of this portfolio
 would find greater realizations.  
 
-## [Link to finished product](https://elcaine.github.io/02-Winters-Portfolio/)
+## [Link to finished product](https://elcaine.github.io/02-Winters-Portfolio-Early/)
 
 ## Webpage resembles personalized spirit of the example provided.
 ![This is a screenshot of my portfolio website.](./assets/images/my-portfolio.jpg)
